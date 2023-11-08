@@ -54,7 +54,12 @@ export const LogupForm = () => {
           {() => <ErrorText>Wrong email</ErrorText>}
         </ErrorMessage>
         <Text>Password</Text>
-        <Input type="password" name="password" title="password" />
+        <Input
+          type="password"
+          name="password"
+          title="password"
+          autoComplete="on"
+        />
         <ErrorMessage name="password">
           {() => <ErrorText>Wrong password</ErrorText>}
         </ErrorMessage>
