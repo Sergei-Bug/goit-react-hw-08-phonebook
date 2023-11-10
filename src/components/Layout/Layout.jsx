@@ -16,9 +16,9 @@ export const Layout = () => {
           <StyledLink to="/" end>
             Home
           </StyledLink>
-          {isLogged && <StyledLink to="/contacts">contacts</StyledLink>}
-          {!isLogged && <StyledLink to="/register">register</StyledLink>}
-          {!isLogged && <StyledLink to="/login">login</StyledLink>}
+          {isLogged && <StyledLink to="/contacts">Contacts</StyledLink>}
+          {!isLogged && <StyledLink to="/register">Register</StyledLink>}
+          {!isLogged && <StyledLink to="/login">Log In</StyledLink>}
         </HeaderMenu>
         {isLogged && <UserBlock />}
       </Header>

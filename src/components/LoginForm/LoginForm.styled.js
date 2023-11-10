@@ -7,7 +7,10 @@ export const Wrapper = styled(Form)`
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  border: 2px solid black;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px -3px;
+  background-color: #ffffff;
   padding: 20px;
   gap: 10px;
   width: 300px;
@@ -26,7 +29,15 @@ export const Input = styled(Field)``;
 
 export const Button = styled.button`
   cursor: pointer;
+  color: white;
+  background-color: rgb(52, 152, 219);
   padding: 8px;
   border-radius: 6px;
-  border-color: lightgray;
+  border-color: transparent;
+  transition: background-color 150ms linear 0s, transform 150ms linear 0s;
+
+  &:hover {
+    background-color: rgb(57, 176, 255);
+    transform: translateY(2px);
+  }
 `;

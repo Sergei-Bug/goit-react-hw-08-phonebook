@@ -15,4 +15,10 @@ export const Button = styled.button`
   padding: 8px;
   border-radius: 6px;
   border-color: lightgray;
+  transition: background-color 150ms linear 0s, transform 150ms linear 0s;
+
+  &:hover {
+    // background-color: rgb(57, 176, 255);
+    transform: translateY(2px);
+  }
 `;

@@ -4,7 +4,7 @@ import { LogupForm } from 'components/LogupForm/LogupForm';
 export const Logup = () => {
   return (
     <WrapperRoot>
-      <h1>Logup</h1>
+      <h1>NEW USER REGISTRATION</h1>
       <LogupForm />
     </WrapperRoot>
   );

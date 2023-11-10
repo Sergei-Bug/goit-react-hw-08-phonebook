@@ -36,7 +36,6 @@ export const LogupForm = () => {
   };
 
   return (
-    //
     <Formik
       initialValues={initialValues}
       validationSchema={userSchema}
@@ -63,7 +62,7 @@ export const LogupForm = () => {
         <ErrorMessage name="password">
           {() => <ErrorText>Wrong password</ErrorText>}
         </ErrorMessage>
-        <Button type="Submit">Log up</Button>
+        <Button type="Submit">Register</Button>
       </Wrapper>
     </Formik>
   );

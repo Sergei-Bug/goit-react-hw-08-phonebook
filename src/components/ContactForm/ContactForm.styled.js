@@ -31,11 +31,11 @@ export const Button = styled.button`
   border-radius: 6px;
   border: transparent;
   color: #ffffff;
-  background-color: #533af1;
+  background-color: rgb(52, 152, 219);
   transition: background-color 150ms linear 0s, transform 150ms linear 0s;
 
   &:hover {
-    background-color: #3625a5;
+    background-color: rgb(57, 176, 255);
     transform: translateY(2px);
   }
 `;

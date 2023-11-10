@@ -1,4 +1,3 @@
-import { MdOutlineContactPhone } from 'react-icons/md';
 const styles = {
   container: {
     minHeight: '800px',
@@ -16,9 +15,7 @@ const styles = {
 export const Home = () => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>
-        <MdOutlineContactPhone size={52} /> Welcome to the phonebook
-      </h1>
+      <h1 style={styles.title}>Welcome to the phonebook</h1>
     </div>
   );
 };
